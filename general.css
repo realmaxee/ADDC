@@ -30,8 +30,6 @@
 			flex-direction: row;
 			justify-content: space-evenly;
 			background-color: #ffe6b3;
-			transition: background-color 0.1s;
-			transition: color 0.1s;
 		}
 
 		.nav a {
@@ -39,6 +37,8 @@
 			color: #003312;
 			font-size: 40px;
 			padding: 10px;
+			transition: background-color 0.5s;
+			transition: color 0.5s;
 		}
 
 		.nav a:link {
@@ -46,6 +46,11 @@
 		}
 
 		.nav a:hover {
+			color: #ffe6b3;
+			background-color: #003312;
+		}
+
+		.selected-nav {
 			color: #ffe6b3;
 			background-color: #003312;
 		}
